@@ -1,4 +1,4 @@
-# ploop
+# ploop.sh
 This bash script is designed to loop through a tab-separated value (TSV) file and pass columns of data to an external program. It takes four arguments: the name of the external program, the path to the TSV file, the number of columns in the TSV file, and an optional list of columns to process. The script's ability to process TSV files and pass specific columns to an external program makes it a useful tool for a wide range of data processing and analysis tasks.
 
 The script checks that it has been passed the correct number of arguments (at least three). If not, it prints a usage message and exits with an error code.
