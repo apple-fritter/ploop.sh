@@ -50,3 +50,7 @@ This timestamp format is commonly used in log files and other applications that 
 * Data integration: The script could be used to merge data from multiple TSV files, allowing users to process and analyze the combined data.
 
 * Automation: The script could be incorporated into a larger automation pipeline, allowing users to process TSV files automatically and integrate them into a larger workflow.
+
+## License
+
+This script is released under the [MIT License](LICENSE).
