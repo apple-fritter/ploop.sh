@@ -9,7 +9,8 @@ The script then loops through the TSV file, skipping any rows that start with '#
 
 The script also records the start and end times of the loop and calculates the duration. It writes a log file containing the script's arguments and the start and end times and duration of the loop.
 
-Overall, this script is useful for processing data in a TSV file and passing it to an external program, while also recording a log file for later analysis.
+## Rust users
+For more control over memory space and intense batching, an implementation of this script's functionality has been made in Rust; If you are interested, please visit the [ploop.rs](https://github.com/apple-fritter/ploop.sh) repository.
 
 ## Usage
 Suppose you have a TSV file named `data.tsv` with 4 columns, and you want to pass the values in columns `2` and `4` to an external program named `myprogram`. You can run the script like this:
